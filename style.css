@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto";
+}
+
+#main{
+    height: 100%;
+    width: 100vw;
+}
+
+#nav{
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0 30px;
+}
+#nav h4{
+    font-size: 20px;
+}
+#nav i{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+#center{
+    height: 50%;
+    width: 100vw;
+    padding-left: 10vw;
+    padding-right: 35px;
+}
+#center h1{
+    width: 60%;
+    font-size: 80px;
+    line-height: 5vw;
+    font-weight: 400;
+}
+#center-innerpart{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#center-innerpart p{
+    font-size: 20px;
+    width: 30%;
+}
+#shopping-details{
+    margin-top: -8%;
+    width: 30%;
+    height: 100%;
+    align-items: self-start;
+}
+#shopping-details h4{
+    font-size: 19px;
+    font-weight: 500;
+}
+.elem{
+    display: flex;
+    border-top: 2px solid black;
+    padding: 20px 0;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+.elem:hover i{
+    opacity: 1;
+    transition: .5s ease-in-out;
+}
+.elem:hover{
+    background-color: whitesmoke;
+}
+
+#bottom{
+    margin-top: 2%;
+    height: 37%;
+    width: 100vw;
+    background-image: url(bannerimage.jpg);
+    background-position: 0 15%;
+    background-size: cover;
+
+}
